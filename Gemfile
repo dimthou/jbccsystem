@@ -45,7 +45,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'gulp_rails', '~> 1.0'
-gem 'carrierwave', '>= 1.0.0.beta', '< 2.0'
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'carrierwave'
+gem 'carrierwave-dropbox'
+gem 'figaro'
