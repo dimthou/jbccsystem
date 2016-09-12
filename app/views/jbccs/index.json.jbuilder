@@ -1,0 +1,1 @@
+json.array! @jbccs, partial: 'jbccs/jbcc', as: :jbcc

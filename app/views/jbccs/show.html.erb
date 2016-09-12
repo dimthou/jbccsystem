@@ -1,0 +1,76 @@
+<p id="notice"><%= notice %></p>
+
+<%= image_tag @jbcc.image_url %>
+<p>
+  <strong>Name:</strong>
+  <%= @jbcc.name %>
+</p>
+
+<p>
+  <strong>Kanji:</strong>
+  <%= @jbcc.kanji %>
+</p>
+
+<p>
+  <strong>Sex:</strong>
+  <%= @jbcc.sex %>
+</p>
+
+<p>
+  <strong>Tel:</strong>
+  <%= @jbcc.tel %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @jbcc.email %>
+</p>
+
+
+<p>
+  <strong>Introductor:</strong>
+  <%= @jbcc.introductor %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @jbcc.company %>
+</p>
+
+<p>
+  <strong>Account name:</strong>
+  <%= @jbcc.account_name %>
+</p>
+
+<p>
+  <strong>Account number:</strong>
+  <%= @jbcc.account_number %>
+</p>
+
+<p>
+  <strong>Create date:</strong>
+  <%= @jbcc.create_date %>
+</p>
+
+<p>
+  <strong>Support:</strong>
+  <%= @jbcc.support %>
+</p>
+
+<p>
+  <strong>Service:</strong>
+  <%= @jbcc.service %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @jbcc.address %>
+</p>
+
+<p>
+  <strong>Remark:</strong>
+  <%= @jbcc.remark %>
+</p>
+
+<%= link_to 'Edit', edit_jbcc_path(@jbcc), class: "btn-link" %> |
+<%= link_to 'Back', jbccs_path, class: "btn-link" %>

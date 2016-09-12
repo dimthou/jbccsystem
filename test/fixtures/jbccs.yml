@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  kanji: MyString
+  sex: MyString
+  introductor: MyString
+  create_date: 2016-09-08
+  support: MyString
+  service: MyString
+  address: MyString
+  remark: MyString
+
+two:
+  name: MyString
+  kanji: MyString
+  sex: MyString
+  introductor: MyString
+  create_date: 2016-09-08
+  support: MyString
+  service: MyString
+  address: MyString
+  remark: MyString
